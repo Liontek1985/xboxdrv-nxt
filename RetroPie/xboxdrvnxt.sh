@@ -10,7 +10,8 @@
 # See the LICENSE.md file at the top-level directory of this distribution and
 # at https://raw.githubusercontent.com/RetroPie/RetroPie-Setup/master/LICENSE.md
 #
-# xboxdrvnxscript v1.8 - 2023-02-20
+# xboxdrvnxscript v1.9 - 2023-03-07
+# CC BY-NC-SA 4.0
 
 rp_module_id="xboxdrvnxt"
 rp_module_desc="Xbox 360/Classic driver -nxt (max compatibility)"
@@ -244,6 +245,7 @@ function gui_xboxdrvnxt() {
         local options=(
             1 "Enable Xbox360 driver (Wired)"
             2 "Enable Xbox360 driver (Wireless)"
+            3 "Enable Xbox-Classic driver (Wired)"			
             4 "Disable xboxdrv"
             5 "Set number of controllers to enable (currently $controllers)"
             6 "Set analog stick deadzone (currently $deadzone)"
